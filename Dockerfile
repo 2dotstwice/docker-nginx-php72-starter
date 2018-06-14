@@ -20,6 +20,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y update && \
         php7.2-json \
         php7.2-bcmath \
         php7.2-soap \
+        php7.2-redis \
         php7.2-zip && \
     rm -rf /var/lib/apt/lists/*
 
